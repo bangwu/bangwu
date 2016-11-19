@@ -55,27 +55,43 @@ tag_map:
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-stylus:
-  compress: true
+# stylus:
+#   compress: true
 
  ## search function
 jsonContent:
-  meta: false
-  pages: false
-  posts:
+  meta: true
+  keywords: false # language name option
+  dateFormat: undefined # format string
+  pages:
     title: true
+    slug: true
     date: true
+    updated: true
+    comments: true
     path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: true # but only if root keywords option language was set
     text: true
     raw: false
     content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: true # but only if root keywords option language was set
+    text: true
+    raw: false
+    content: false
+    categories: true
     tags: true
 
 # Pagination
@@ -87,6 +103,14 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: BlueLake
+
+links:
+  - title: site-name
+    url: http://www.example1.com/
+  - title: site-name
+    url: http://www.example2.com/
+  - title: site-name
+    url: http://www.example3.com/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
