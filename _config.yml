@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 前端菜鸟成长日记
+title: 菜鸟成长日记
 subtitle:
 description:
 author: Bang Wu
@@ -55,8 +55,8 @@ tag_map:
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# stylus:
-#   compress: true
+styles:
+  compress: true
 
  ## search function
 jsonContent:
@@ -105,7 +105,7 @@ pagination_dir: page
 theme: BlueLake
 
 links:
-  - title: site-name
+  - title: site-name1
     url: http://www.example1.com/
   - title: site-name
     url: http://www.example2.com/
