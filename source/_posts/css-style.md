@@ -9,10 +9,6 @@ category: 前端
 
 *用更合理的方式写 CSS 和 Sass*
 
-原文出自 [Zhangjd / css-style-guide](https://github.com/Zhangjd/css-style-guide)
-
-翻译自 [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
-
 <a name="terminology"></a>
 ## 术语
 
@@ -287,3 +283,7 @@ category: 前端
 再说一遍: **永远不要嵌套 ID 选择器！**
 
 如果你始终坚持要使用 ID 选择器（劝你三思），那也不应该嵌套它们。如果你正打算这么做，你需要先重新检查你的标签，或者指明原因。如果你想要写出风格良好的 HTML 和 CSS，你是**不**应该这样做的。
+
+原文出自 [Zhangjd / css-style-guide](https://github.com/Zhangjd/css-style-guide)
+
+翻译自 [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
